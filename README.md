@@ -43,16 +43,6 @@ dependencies:
   cached_network_image: ^3.3.1
 ```
 
-## Estrutura
-
-```
-lib/
-  ├── models/
-  ├── services/
-  ├── widgets/
-  └── main.dart
-```
-
 ## API
 
 O projeto utiliza a [API do Kitsu](https://kitsu.docs.apiary.io/) para informações dos animes.
