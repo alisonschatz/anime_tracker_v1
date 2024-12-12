@@ -1,16 +1,58 @@
-# anime
+# Anime Tracker v1
 
-A new Flutter project.
+Um aplicativo Flutter para gerenciar animes assistidos e planejados, utilizando a API do Kitsu.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Busca de animes em tempo real
+- Lista de animes assistidos e planejados
+- Sistema de avaliação (0-10)
+- Comentários personalizados
+- Categorização por tags
+- Sistema de filtros e ordenação
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Kitsu API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/anime_tracker_v1.git
+
+# Entre no diretório
+cd anime_tracker_v1
+
+# Instale as dependências
+flutter pub get
+
+# Execute o projeto
+flutter run
+```
+
+## Dependências
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cached_network_image: ^3.3.1
+```
+
+## Estrutura
+
+```
+lib/
+  ├── models/
+  ├── services/
+  ├── widgets/
+  └── main.dart
+```
+
+## API
+
+O projeto utiliza a [API do Kitsu](https://kitsu.docs.apiary.io/) para informações dos animes.
